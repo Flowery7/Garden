@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>24/7 Earwax Removal Service</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+       body {
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+    }
+    .navbar {
+      background-color: #66BB6A;
+    }
+    .navbar a, .navbar-brand {
+      color: white !important;
+      font-weight: 700;
+    }
+    .hero {
+      background: url('/gardening_background_image_lawn_mower.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    
+    
+    
+    .hero-overlay {
+  display: inline-block;
+  background-color: rgba(102, 187, 106, 0.7); /* Semi-transparent background */
+  padding: 10px 20px; /* Adjust padding to fit text nicely */
+  border-radius: 8px; /* Optional, gives rounded corners */
+}
+
+.hero-overlay h1,
+.hero-overlay p,
+.hero-overlay a {
+  color: white; /* Text color */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Text shadow for contrast */
+}
+
+.hero-overlay a {
+  background-color: white; /* Button background */
+  color: #333; /* Button text color */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Button text shadow */
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero-overlay a:hover {
+  background-color: #333; /* Button hover background */
+  color: white; /* Button hover text color */
+}
+    
+    
+    .hero h1 {
+      font-size: 2rem;
+      font-weight: 300;
+    }
+    .hero p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+    .cta-btn {
+      margin-top: 20px;
+    }
+    .about, .services, .testimonials, .contact {
+      padding: 60px 20px;
+    }
+    .service-card {
+      border: 1px solid #eaeaea;
+      border-radius: 8px;
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+    .service-card:hover {
+      transform: scale(1.05);
+    }
+    
+.testimonial-card {
+  background-color: #4A704B; /* Dark green shade */
+  border-radius: 8px;
+  border: none; /* Remove border for a cleaner look */
+  color: #ffffff; /* White text */
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  font-weight: bold; /* Bold text inside */
+}
+
+.stars i {
+  margin: 0 2px;
+  font-size: 20px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.testimonial-card:hover {
+  transform: scale(1.05); /* Slight zoom-in effect on hover */
+}
+
+#testimonials h2 {
+  color: #3c763d; /* Green title for the section */
+}
+
+#testimonials p {
+  font-style: italic;
+  color: #ffffff; /* White text for review content */
+}
+
+
+    #seasons {
+  background-color: #f9f9f9; /* Neutral background for contrast */
+}
+
+.season-card {
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.season-card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.season-card:hover {
+  transform: scale(1.05); /* Subtle hover effect */
+}
+
+ 
+    
+    .footer {
+      background-color: #66BB6A;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .footer a {
+      color: #66BB6A;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: white;
+    }
+  
+  </style>
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">JUST Gardening</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html/#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Area</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-overlay">
+      <h1>Gardening Care</h1>
+      <p>We are your local Gardener's covering all aspects of landscaping.</p>
+      <a href="#contact" class="btn btn-light btn-lg cta-btn">Call Now</a>
+    </div>
+  </div>
+</section>
+
+  <!-- About Section -->
+  <section id="about" class="about"> 
+    <div class="container">
+      <h2 class="text-center mb-4" style="color: #2E7D32;">Your Lawn our Passion!</h2>
+      <p>At our gardening service, your outdoor space is our top priority. Our work is carried out by highly skilled professionals with years of experience in garden care and landscaping. With extensive training and a dedication to excellence, our team ensures that every client receives the highest standard of service, tailored to their unique gardening needs.
+<br> <br>
+We understand that tackling garden maintenance or landscaping projects can feel overwhelming, especially if your garden has become unruly or requires specialized care. Rest assured, our experts are here to listen to your vision, explain the process clearly, and provide customized solutions to bring your outdoor space to life.
+<br> <br>
+<h2 class="text-center mb-4" style="color: #2E7D32;">We've got you back garden!</h2>
+<br><br>
+Whether you’re looking for routine maintenance or a complete garden transformation, you can trust that you’re in capable hands. Our professionals combine modern techniques with a personal touch, ensuring that your garden care is not only effective but also stress-free and enjoyable.
+<br>
+With our expertise, you can feel confident that you’re taking the right step toward a healthier, more beautiful garden. Let us help you create and maintain a space you can truly enjoy.
+    </div>
+  </section>
+
+
+<section id="seasons" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: #2E7D32;">Seasonal Work</h2>
+    <div class="row g-4">
+      <!-- Spring -->
+      <div class="col-md-3">
+        <div class="season-card text-center" style="background-color: #AED4A3;">
+          
+          <img src="/spring.jpg" alt="Autumn Gardening" class="img-fluid mb-3">
+          <h4>Spring</h4>
+          <p class="px-3">
+            Spring is all about revitalizing your garden with new plants, lawn aeration, and a thorough garden cleanup to prepare for the year ahead.
+          </p>
+        </div>
+      </div>
+      <!-- Summer -->
+      <div class="col-md-3">
+        <div class="season-card text-center" style="background-color: #FCD567;">
+          
+          <img src="/summer.jpg" alt="Autumn Gardening" class="img-fluid mb-3">
+          <h4>Summer</h4>
+          <p class="px-3">
+            Summer focuses on maintaining lush greenery with regular lawn mowing, consistent watering, and pruning to keep your garden vibrant.
+          </p>
+        </div>
+      </div>
+      <!-- Autumn -->
+      <div class="col-md-3">
+        <div class="season-card text-center" style="background-color: #C87A3B;">
+          
+          <img src="/Autunm.jpg" alt="Autumn Gardening" class="img-fluid mb-3">
+          <h4>Autumn</h4>
+          <p class="px-3">
+            Autumn involves leaf clearing, preparing garden beds for the colder months, and planting bulbs to ensure a colorful and beautiful spring.
+          </p>
+        </div>
+      </div>
+      <!-- Winter -->
+      <div class="col-md-3">
+        <div class="season-card text-center" style="background-color: #A9B2C3;">
+          
+          <img src="/Winter.jpg" alt="Autumn Gardening" class="img-fluid mb-3">
+          <h4>Winter</h4>
+          <p class="px-3">
+            Winter is the time for tree care, frost protection for plants, and clearing or graveling for snow where necessary to keep your garden safe and tidy.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Areas We Cover Section -->
+<section id="coverage" class="py-5" style="background-color: #C8E6C9;">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: #2E7D32;">Area's we cover</h2>
+    <p class="text-center">
+      We proudly serve the majority of Yorkshire, bringing expert ear care to your doorstep. Below are some of the prominent areas we cover:
+    </p>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item">Leeds</li>
+          <li class="list-group-item">Sheffield</li>
+          <li class="list-group-item">Bradford</li>
+          <li class="list-group-item">York</li>
+          <li class="list-group-item">Huddersfield</li>
+          <li class="list-group-item">Doncaster</li>
+          <li class="list-group-item">Harrogate</li>
+          <li class="list-group-item">Wakefield</li>
+          <li class="list-group-item">Barnsley</li>
+          <li class="list-group-item">Halifax</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <!-- Google Maps Embed -->
+        <div style="width: 100%; height: 400px; border: none;">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d482000.52399916316!2d-1.9498!3d53.9539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487be57bfe83eaff%3A0x45d3ed92f49539f6!2sYorkshire%2C%20UK!5e0!3m2!1sen!2suk!4v1699450000000!5m2!1sen!2suk"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="testimonials" class="py-5" style="background-color: #f1f8f4;">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: #2E7D32;">What Our Clients Say</h2>
+    <div class="row g-4">
+      <!-- Testimonial 1 -->
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <div class="stars mb-2">
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+          </div>
+          <p>"Fantastic service! My garden has never looked better. Highly recommend!"</p>
+          <h5 class="mt-3">- Sarah J.</h5>
+        </div>
+      </div>
+      <!-- Testimonial 2 -->
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <div class="stars mb-2">
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+          </div>
+          <p>"Professional and efficient team. They transformed our backyard in no time."</p>
+          <h5 class="mt-3">- Mark T.</h5>
+        </div>
+      </div>
+      <!-- Testimonial 3 -->
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <div class="stars mb-2">
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+            <i class="fas fa-star" style="color: #FFD700;"></i>
+          </div>
+          <p>"Very happy with their work. The landscaping looks beautiful."</p>
+          <h5 class="mt-3">- Angela P.</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+ <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+     <h2 class="text-center mb-4" style="color: #2E7D32;">Contact Us</h2>
+      <p class="text-center">Call us at <strong>01234-654321</strong><br><strong>Email: gardening@mail.com</strong> </p>
+      <form>
+        <div class="row g-3">
+          <div class="col-md-6">
+           
+    </div>
+  </section>
+  
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Follow us on:</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+      </div>
+      <p>&copy; 2024 Just Gardening. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
